@@ -1,5 +1,5 @@
 # os-learning
-跟学cfenollosa/os-tutorial
+跟学[cfenollosa/os-tutorial](https://github.com/cfenollosa/os-tutorial)
 
 如何从头写代码
 我一直想从头写一个操作系统。在大学里，我已经学过如何实现高级特性（分页、信号量、内存管理等）但是：
