@@ -1,8 +1,9 @@
-; Infinite loop (e9 fd ff)
+; 无限循环 (e9 fd ff)
 loop:
     jmp loop 
 
-; Fill with 510 zeros minus the size of the previous code
+; times是重复操作的意思，$-$$是当前行命令到程序开始的程序距离，db是指定字节
 times 510-($-$$) db 0
 ; Magic number
+; bios检查开机引导程序的标志
 dw 0xaa55 
