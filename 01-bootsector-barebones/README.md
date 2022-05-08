@@ -42,7 +42,7 @@ dw 0xaa55
 我知道你迫不及待的想跑这个程序了，所以就开跑：
 
 ```zsh
-qemu boot_sect_simple.bin
+qemu-system-i386 boot_sect_simple.bin
 ```
 
 > 在某些系统上可能需要运行：``qemu-system-x86_64 boot_sect_simple.bin``，如果发生SDL错误，可以传入 ``----nographic`` 或者 ``--curses``标志
